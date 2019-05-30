@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardData Component Rendering Check if render component correctly 1`] = `
+<Styled(Card)
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
+>
+  <Collapse
+    disabled={false}
+    id="collapseID"
+    isCollapsed={false}
+    onToggle={[Function]}
+  >
+    <CollapseHeader
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#EFEFEF",
+          "height": 82,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 100,
+            "marginLeft": 14,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Styled(Text)
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontWeight": "bold",
+              "marginTop": 10,
+            }
+          }
+        >
+          94378331
+        </Styled(Text)>
+        <Styled(Text)>
+          JOE LOCKWOOD
+        </Styled(Text)>
+        <Styled(Icon)
+          name="file-text"
+          style={
+            Object {
+              "fontSize": 20,
+              "marginRight": 140,
+              "marginTop": -35,
+              "textAlign": "right",
+            }
+          }
+          type="FontAwesome"
+        />
+        <Styled(Icon)
+          name="truck"
+          style={
+            Object {
+              "fontSize": 20,
+              "marginRight": 93,
+              "marginTop": -20,
+              "textAlign": "right",
+            }
+          }
+          type="FontAwesome5"
+        />
+        <Styled(Icon)
+          name="shopping-cart"
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontSize": 20,
+              "marginRight": 55,
+              "marginTop": -23,
+              "textAlign": "right",
+            }
+          }
+          type="FontAwesome5"
+        />
+        <Styled(Icon)
+          name="chevron-down"
+          style={
+            Object {
+              "color": "#B7CBC3",
+              "fontSize": 20,
+              "marginRight": 21,
+              "marginTop": -23,
+              "textAlign": "right",
+            }
+          }
+          type="FontAwesome5"
+        />
+      </View>
+    </CollapseHeader>
+    <CollapseBody>
+      <View
+        style={
+          Object {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Styled(Icon)
+          name="clockcircle"
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontSize": 20,
+              "marginLeft": 15,
+              "marginTop": 13,
+            }
+          }
+          type="AntDesign"
+        />
+        <Styled(Text)
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontWeight": "bold",
+              "marginLeft": 45,
+              "marginTop": -22,
+            }
+          }
+        >
+          Order placed
+        </Styled(Text)>
+        <Styled(Text)
+          style={
+            Object {
+              "marginLeft": 45,
+            }
+          }
+        >
+          4 hours ago
+        </Styled(Text)>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 150,
+          }
+        }
+      >
+        <Styled(Icon)
+          name="file-text"
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontSize": 20,
+              "marginLeft": 15,
+              "marginTop": 13,
+            }
+          }
+          type="FontAwesome"
+        />
+        <Styled(Text)
+          style={
+            Object {
+              "color": "#548B6F",
+              "fontWeight": "bold",
+              "marginLeft": 45,
+              "marginTop": -22,
+            }
+          }
+        >
+          Special instructions
+        </Styled(Text)>
+        <Styled(Text)
+          style={
+            Object {
+              "marginLeft": 45,
+            }
+          }
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed varius nisi, id tincidunt ligula. Suspendisse vestibulum erat molestie elit suscipit, volutpat pellentesque dui euismod.
+        </Styled(Text)>
+      </View>
+    </CollapseBody>
+  </Collapse>
+</Styled(Card)>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Rendering Check if render component correctly 1`] = `
+<Styled(Container)>
+  <Styled(ViewNB)
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Styled(Text)>
+      Edit src/components/baseApp/index.tsx
+    </Styled(Text)>
+    <Styled(Text)>
+      Jhon
+       
+      Doe
+    </Styled(Text)>
+    <Styled(Button)
+      onPress={[Function]}
+    >
+      <Styled(Text)>
+        Go to orders
+      </Styled(Text)>
+    </Styled(Button)>
+  </Styled(ViewNB)>
+</Styled(Container)>
+`;

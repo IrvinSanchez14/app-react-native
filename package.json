@@ -1,0 +1,77 @@
+{
+  "name": "InStoreQueue",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "compile": "tsc",
+    "start": "node node_modules/react-native/local-cli/cli.js start ",
+    "test": "jest",
+    "test-c": "jest --coverage",
+    "test-us": "jest -u --coverage"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.0",
+    "@types/faker": "^4.1.5",
+    "@types/lodash": "^4.14.130",
+    "@types/sinon": "^7.0.11",
+    "accordion-collapse-react-native": "^0.1.10",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.11",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-testing-library": "^1.7.0",
+    "react-navigation": "^3.10.1",
+    "react-timer-mixin": "^0.13.4",
+    "sinon": "^7.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@types/enzyme": "^3.9.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.57",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-react-16-adapter-setup": "^0.1.0",
+    "jest": "^24.8.0",
+    "jest-enzyme": "^7.0.2",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "16.8.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.jest.json"
+      }
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "setupFiles": [
+      "./tests/setup.js"
+    ]
+  }
+}
